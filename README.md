@@ -1,1 +1,1 @@
-# Git_practice_snehasish
+This is a practice setup for learning git.
