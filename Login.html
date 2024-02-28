@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 300px;
+            margin: 100px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .input-group {
+            margin-bottom: 20px;
+        }
+        .input-group label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .input-group input {
+            width: 100%;
+            padding: 8px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .btn-secondary {
+            background-color: #6c757d;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h2>Login</h2>
+    <div class="input-group">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" placeholder="Enter your username">
+    </div>
+    <div class="input-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password">
+    </div>
+    <button class="btn" onclick="login()">Login</button>
+    <button class="btn btn-secondary" onclick="register()">Register</button>
+</div>
+
+<script>
+    function login() {
+        // Add login functionality here
+        alert('Login button clicked');
+    }
+
+    function register() {
+        // Add register functionality here
+        alert('Register button clicked');
+    }
+</script>
+</body>
+</html>

@@ -1,1 +1,1 @@
-This is a practice setup for learning git.
+This is a practice setup for learning git and git commands with hands on pratice.
